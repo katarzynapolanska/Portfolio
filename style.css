@@ -1,0 +1,77 @@
+* {
+    text-align: center;
+}
+body {
+    background: url("images/bd.jfif");
+    font-family: 'Montserrat', sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#navbar {
+    text-align: center;
+    display: inline;
+}
+#navbar a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    margin: 5rem;
+    border-top: 1px solid rgba(21, 30, 24, 0.83);
+    border-bottom: 1px solid rgba(21, 30, 24, 0.83);
+}
+
+#navbar a:hover{
+    color: rgb(255, 30, 30);
+}
+
+#vnaam {
+    text-align: left;
+    z-index: -1;
+    margin: 2% 15% 0;
+    font-family: 'Dancing Script', cursive;
+    font-size: 4rem;
+    /*color: rgb(148, 168, 154);*/
+    background: linear-gradient(to right, rgb(207, 206, 206) 5%, #174e33 95%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+#anaam {
+    text-align: right;
+    z-index: -1;
+    margin: 0 15% 2%;
+    font-family: 'Dancing Script', cursive;
+    font-size: 4rem;
+    /*color: rgba(103, 126, 110, 0.93);*/
+    background: linear-gradient(to left, rgb(207, 206, 206) 5%, #174e33 95%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+#content {
+    margin: 1% 15%;
+    height: 30rem;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(230, 234, 231, 0.452);
+    -webkit-box-shadow: 0px -1px 24px 0px rgba(102,82,60,1);
+    -moz-box-shadow: 0px -1px 24px 0px rgba(102,82,60,1);
+    box-shadow: 0px -1px 24px 0px rgba(102,82,60,1);
+    border: solid 10px white;
+}
+
+.aboutMe {
+    color: rgba(29, 42, 33, 0.93);
+    padding: 2%;
+    font-size: 2rem;
+}
+.narrow {
+	float: right;
+	margin-right: -10rem;
+	position: sticky;
+	top: 50%;
+}
+.narrow a{
+	color: white;
+}
+.narrow a:hover {
+	color: red;
+}

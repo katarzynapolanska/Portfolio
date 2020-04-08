@@ -1,0 +1,21 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #F3F1F2;
+    background: url("images/contact-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+pre {
+   
+    border: 1px solid #ddd;
+    border-left: 3px solid #f36d33;
+    color: rgb(48, 48, 48);
+    font-size: 15px;
+    margin-bottom: 1.6em;
+    max-width: 100%;
+    overflow: auto;
+    padding: 1em 1.5em;
+    display: block;
+    word-wrap: break-word;
+}

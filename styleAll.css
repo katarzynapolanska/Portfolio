@@ -1,0 +1,69 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #F3F1F2;
+    background: url("images/contact-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#navbar {
+    text-align: center;
+    display: inline;
+}
+#navbar a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    margin: 5rem;
+    border-top: 1px solid rgba(21, 30, 24, 0.83);
+    border-bottom: 1px solid rgba(21, 30, 24, 0.83);
+}
+
+#navbar a:hover{
+    color: rgb(255, 30, 30);
+}
+
+#vnaam {
+    text-align: left;
+    z-index: -1;
+    margin: 2% 15% 0;
+    font-family: 'Dancing Script', cursive;
+    font-size: 4rem;
+    /*color: rgb(148, 168, 154);*/
+    background: linear-gradient(to right, rgb(207, 206, 206) 5%, #174e33 95%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#anaam {
+    text-align: right;
+    z-index: -1;
+    margin: 0 15% 2%;
+    font-family: 'Dancing Script', cursive;
+    font-size: 4rem;
+    /*color: rgba(103, 126, 110, 0.93);*/
+    background: linear-gradient(to left, #8C9299 5%, #FFFF 95%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#content {
+    height: 30rem;
+    margin: 1% 15%;
+    border: 10px solid rgb(2,0,36);
+    color: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(44,134,91,0.196516106442577) 0%, rgba(0,21,25,1) 100%);
+    -webkit-box-shadow: 0px -1px 24px 0px rgba(102,82,60,1);
+    -moz-box-shadow: 0px -1px 24px 0px rgba(102,82,60,1);
+    box-shadow: 0px -1px 24px 0px rgba(102,82,60,1);
+}
+h3 {
+    text-align: left;
+}
+
+input[type=submit]{
+    border: none;
+    background: none;
+    font-weight: bold;
+    border-top: 1px solid rgba(21, 30, 24, 0.83);
+    border-bottom: 1px solid rgba(21, 30, 24, 0.83);
+}
+input[type=submit]:hover{
+    color: rgb(255, 30, 30);
+}
